@@ -36,13 +36,18 @@ body{
 }
 .card {
     height: 200px;
-    border: 1px solid #ccc;
+    width: auto;
+    border: 1px solid #ccc !important;
     margin: 10px;
     padding: 10px;
     display: inline-block;
-    object-fit: cover;
+    overflow-y: scroll;
+    background-color: transparent !important;
 }
 
 .card img {
     height: 200px;
+    width: 200px;
+    object-fit: cover;
+
 }
