@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+}
+
+body{
+    background-color: transparent !important;
+}
+
+#input{
+    border: 1px solid gray !important;
+    padding: 5px !important;
+    border-radius: 10px;
+}
+
+#container{
+    background-color: transparent !important;
+}
+
+#input button{
+    background-color: gray !important;
+    padding: 3px;
+}
+#input button:hover{
+    background-color: rgb(171, 169, 169) !important;
+}
+
+#cardsContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.card {
+    height: 200px;
+    border: 1px solid #ccc;
+    margin: 10px;
+    padding: 10px;
+    display: inline-block;
+    object-fit: cover;
+}
+
+.card img {
+    height: 200px;
+}
