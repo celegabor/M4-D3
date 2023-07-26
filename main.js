@@ -90,8 +90,9 @@ function createCard(imageUrl, imageId, widthValue, heightValue, photographerUrl)
     const idElement = document.createElement('p');
     idElement.innerText = 'ID: ' + imageId;
 
-    const photographerUrlElement = document.createElement('p');
-    photographerUrlElement.innerHTML = 'URL del fotografo: <a href="' + photographerUrl + '">' + photographerUrl + '</a>';
+    const photographerUrlElement = document.createElement('a');
+    photographerUrlElement.innerHTML = '<a style="text-decoration: none; color: gray"; href=' + photographerUrl + '> user link    <i class="fa-solid fa-user-secret fa-xl" style="color: gray;"></i></a>';
+    
 
     card.appendChild(image);
     card.appendChild(idElement);
