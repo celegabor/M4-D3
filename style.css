@@ -36,9 +36,6 @@ body{
 }
 .card {
     border: 1px solid #ccc !important;
-    max-width: 20%;
-    height: 450px;
-    max-height: 450px;
     margin: 10px;
     padding: 10px;
     display: inline-block;
